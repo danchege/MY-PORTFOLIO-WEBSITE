@@ -1,6 +1,7 @@
 # MY-PORTFOLIO-WEBSITE
 
 This project is a personal portfolio website showcasing my skills, education, projects, and contact information. Below is a step-by-step explanation of how the code was written and formatted using HTML and CSS only.
+-**Link**: https://danchege.github.io/portfolio/
 
 ---
 
