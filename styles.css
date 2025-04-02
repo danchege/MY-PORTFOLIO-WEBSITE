@@ -1,5 +1,5 @@
 section{
-    display: none;
+    display: contents;
 }
 
 section:target {
@@ -65,10 +65,10 @@ section:target {
     text-align: justify;
     text-justify: inter-word;
     margin: auto;
-    max-width: 900px;
     padding: 10px;
-    text-align: left;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
 }
 
 .skills-list {
@@ -141,3 +141,13 @@ section:target {
     justify-content: center;
 }
 
+.download-button{
+    display: flex;
+    justify-content: center;
+    gap : 20px;
+    flex-wrap: wrap;
+    background-color: #33ccfa;
+    width: 150px;
+    height: 30px;  
+  
+}

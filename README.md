@@ -21,7 +21,7 @@ The `index.html` file is the main entry point of the website. It is structured a
 
 ## 2. **CSS Styling**
 The `styles.css` file is used to style the website. Below are the key styling decisions:
-- **Section Visibility**: By default, all sections are hidden using `display: none;`. The `:target` pseudo-class is used to display the section when its corresponding navigation link is clicked.
+- **Section Visibility**: By default, all sections are set `display: contents;`. The `:target` pseudo-class is used to display the section when its corresponding navigation link is clicked.
 - **Navigation Bar**:
   - Styled with `flexbox` for alignment and spacing.
   - Links are styled with hover effects using `transition`.
@@ -90,7 +90,7 @@ The website uses `flexbox` for layout management, ensuring that elements are ali
 
 ## 9. **Credits**
 - All content and assets are created and owned by Daniel Chege.
-- Icons and images are sourced from personal designs using Canva, pexels and public resources.
+- Icons and images are sourced from personal designs using Canva, pexels.com and public resources.
 
 ---
 
