@@ -41,7 +41,7 @@ The `styles.css` file is used to style the website. Below are the key styling de
 
 ---
 
-## 4. **Content Details**
+## 5. **Content Details**
 ### About Me Section:
 - Provides a brief introduction to my background and interests in technology.
 
@@ -58,19 +58,12 @@ The `styles.css` file is used to style the website. Below are the key styling de
 - Lists links to GitHub repositories for projects I have worked on, with descriptions of each project.
 
 ### Contact Me Section:
-- Displays social media icons and links for easy communication.
-
----
-
-## 5. **Inline Styles**
-Some inline styles are used in the `index.html` file for quick adjustments, such as:
-- Centering the welcome message in the header.
-- Styling the footer text.
+- Displays social media icons and links for easy communication. Includes a contact form with validation.
 
 ---
 
 ## 6. **Responsive Design**
-The website uses `flexbox` for layout management, ensuring that elements are aligned and spaced properly on different screen sizes.
+The website uses `flexbox` and media queries to ensure proper alignment and spacing on different screen sizes.
 
 ---
 
@@ -82,15 +75,15 @@ The website uses `flexbox` for layout management, ensuring that elements are ali
 ---
 
 ## 8. **Future Improvements**
-- Add JavaScript for enhanced interactivity (e.g., smooth scrolling and form validation).
-- Optimize the website for mobile devices using media queries.
-- Include more projects and dynamic content.
+- Add animations for section transitions.
+- Implement a backend for storing contact form submissions.
+- Include a blog section for sharing articles and updates.
 
 ---
 
 ## 9. **Credits**
 - All content and assets are created and owned by Daniel Chege.
-- Icons and images are sourced from personal designs using Canva, pexels.com and public resources.
+- Icons and images are sourced from personal designs using Canva, pexels.com, and public resources.
 
 ---
 
