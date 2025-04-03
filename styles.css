@@ -151,3 +151,54 @@ section:target {
     height: 30px;  
   
 }
+
+body {
+    background-color: rgb(5, 5, 5);
+    background-image: url(images/background\ 2.webp);
+    background-size: cover;
+    background-position: center;           
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: rgb(255, 255, 255);
+    font-style: underline;
+    text-align: center;
+}
+
+/* Media query for tablets (width <= 768px) */
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+    .video-tag video {
+        width: 100%;
+        height: auto;
+    }
+    .navigation-tab ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation-tab ul li {
+        margin: 10px 0;
+    }
+}
+
+/* Media query for mobile devices (width <= 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+    .social-media img {
+        width: 30px;
+    }
+}
